@@ -34,4 +34,4 @@ jobs:
       - name: Run make
         run: cd build && make
       - name: Run test
-        run: cd build && make test --output-on-failure
+        run: cd build && make CTEST_OUTPUT_ON_FAILURE=1 test
