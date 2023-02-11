@@ -6,7 +6,7 @@
 
 using namespace Eigen;
 
-BOOST_AUTO_TEST_SUITE(matrixIOTest)
+BOOST_AUTO_TEST_SUITE(MatrixIOTests)
 
 BOOST_AUTO_TEST_CASE(openData)
 {
