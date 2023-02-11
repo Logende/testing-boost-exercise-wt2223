@@ -17,16 +17,15 @@ BOOST_AUTO_TEST_CASE(openData)
       7, 8, 9;
   matrixIO::saveData("test.csv", expected);
   const Eigen::MatrixXd result = matrixIO::openData("test.csv", 3);
-   BOOST_TEST(expected(0, 0) == result(0, 0));
-   BOOST_TEST(expected(0, 1) == result(0, 1));
-   BOOST_TEST(expected(0, 2) == result(0, 2));
-   BOOST_TEST(expected(1, 0) == result(1, 0));
-   BOOST_TEST(expected(1, 1) == result(1, 1));
-   BOOST_TEST(expected(1, 2) == result(1, 2));
-   BOOST_TEST(expected(2, 0) == result(2, 0));
-   BOOST_TEST(expected(2, 1) == result(2, 1));
-   BOOST_TEST(expected(2, 2) == result(2, 2));
-
+  BOOST_TEST(expected(0, 0) == result(0, 0));
+  BOOST_TEST(expected(0, 1) == result(0, 1));
+  BOOST_TEST(expected(0, 2) == result(0, 2));
+  BOOST_TEST(expected(1, 0) == result(1, 0));
+  BOOST_TEST(expected(1, 1) == result(1, 1));
+  BOOST_TEST(expected(1, 2) == result(1, 2));
+  BOOST_TEST(expected(2, 0) == result(2, 0));
+  BOOST_TEST(expected(2, 1) == result(2, 1));
+  BOOST_TEST(expected(2, 2) == result(2, 2));
 }
 
 BOOST_AUTO_TEST_SUITE_END()
