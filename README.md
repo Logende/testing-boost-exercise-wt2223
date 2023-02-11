@@ -2,6 +2,8 @@
 
 A simple demo code to read dense matrices from files and solve linear systems with them.
 
+[![Boost Testing Exercise](https://github.com/Logende/testing-boost-exercise-wt2223/actions/workflows/main.yml/badge.svg)](https://github.com/Logende/testing-boost-exercise-wt2223/actions/workflows/main.yml)
+
 ## Folder Structure
 
 - `cmake`: Third-party CMake modules
